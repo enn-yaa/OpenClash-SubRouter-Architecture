@@ -119,8 +119,8 @@ add chain=dstnat action=redirect to-ports=53 protocol=udp dst-port=53 src-addres
 
 ## 🧭 作者与贡献
 
-- 主作者：L.F  
-- 测试设备：R4S、ROS5009、OpenWrt 24.x  
+- 主作者：enn-yaa 
+- 测试设备：R4S、ROS5009、OpenWrt 23.05.6  
 - 协议：MIT License  
 - 项目主页：https://github.com/yourname/OpenClash-SubRouter-Architecture
 
