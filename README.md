@@ -116,10 +116,30 @@ add chain=dstnat action=redirect to-ports=53 protocol=udp dst-port=53 src-addres
 让我们共同构建下一代家庭网络标准化方案。
 
 ---
+## 🤝 致谢与参考项目
 
-## 🧭 作者与贡献
+本项目的架构设计与部分思路参考了以下优秀开源项目：
 
-- 主作者：enn-yaa 
+- [Aethersailor / Custom_OpenClash_Rules](https://github.com/Aethersailor/Custom_OpenClash_Rules)  
+  ↳ 提供了高质量的自定义规则体系，对本项目 DNS 分流策略具有重要参考价值。
+
+- [Giveupmoon / OpenClash_Overwrite](https://github.com/Giveupmoon/OpenClash_Overwrite)  
+  ↳ 展示了 Clash 配置重载与模板化实现，对二级软路由下的配置管理提供了思路。
+
+特别感谢以上作者及社区的无私贡献，让 OpenClash 在不同网络架构下有了更灵活的实践基础。
+
+---
+
+## 👥 作者与协作说明
+ 
+- 技术与文本协作：**ChatGPT（OpenAI）**  
+- 参考与启发项目：  
+  [Aethersailor/Custom_OpenClash_Rules](https://github.com/Aethersailor/Custom_OpenClash_Rules)  
+  [Giveupmoon/OpenClash_Overwrite](https://github.com/Giveupmoon/OpenClash_Overwrite)
+
+> 本项目并非上述仓库的附属或分支，而是在「二级软路由 + OpenClash」环境下设计的 DNS 架构研究项目。  
+> 欢迎更多开发者、网络工程师、爱好者参与改进与共建。
+
 - 测试设备：R4S、ROS5009、OpenWrt 23.05.6  
 - 协议：MIT License  
 - 项目主页：[https://github.com/yourname/OpenClash-SubRouter-Architecture](https://github.com/enn-yaa/OpenClash-SubRouter-Architecture)
