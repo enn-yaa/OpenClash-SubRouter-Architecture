@@ -3,8 +3,8 @@ dns:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
   default-nameserver:
-    - 114.114.114.114
     - 223.5.5.5
+    - 119.29.29.29
 
 proxy-providers:
   provider:
